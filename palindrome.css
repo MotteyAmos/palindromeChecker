@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body{
+    background:#2E3E66;
+}
+
+.input{
+    width:70vw;
+    height:25vh;
+    padding:2rem;
+    text-align: center;
+    background:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.input input{
+    padding:0.5rem;
+    width:15rem;
+    border:none;
+    background:transparent;
+    border-bottom: 2px orange solid;
+   margin-bottom: 15px;
+}
+.input input:focus{
+    outline:none;
+}
+.input button{
+    padding:0.5rem;
+    width:5rem;
+    background:#A60021;
+    border:none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    font-size:1.3rem;
+    border-radius: 5px;
+}
+.input button:active{
+    background:#2E3E66;
+}
+.palindrome, .notPalindrome{
+    color:#275bdd;
+    display:none;
+}
